@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.chengxusheji.domain">
+
+	<class name="Team" table="Team">
+
+          <!-- 主键用户名 -->
+          <id name="teamUserName" type="string" length="20">
+            <generator class="assigned"/>
+          </id>
+
+          <!-- 简单字符串属性: 登录密码 -->
+          <property
+            name="password"
+            column="password"
+            type="string"
+            length="20"
+          />
+
+          <!-- 简单字符串属性: 电子邮箱 -->
+          <property
+            name="email"
+            column="email"
+            type="string"
+            length="50"
+          />
+
+          <!-- 简单字符串属性: 志愿团体名称 -->
+          <property
+            name="teamName"
+            column="teamName"
+            type="string"
+            length="60"
+          />
+
+          <!-- 简单字符串属性: 所属院校 -->
+          <property
+            name="shoolName"
+            column="shoolName"
+            type="string"
+            length="20"
+          />
+
+          <!-- 简单字符串属性: 联络团体 -->
+          <property
+            name="contactGroup"
+            column="contactGroup"
+            type="string"
+            length="40"
+          />
+
+          <!-- 简单字符串属性: 主管单位 -->
+          <property
+            name="mainUnit"
+            column="mainUnit"
+            type="string"
+            length="40"
+          />
+
+          <!-- 简单字符串属性: 区域 -->
+          <property
+            name="area"
+            column="area"
+            type="string"
+            length="20"
+          />
+
+          <!-- 简单字符串属性: 详细地址 -->
+          <property
+            name="address"
+            column="address"
+            type="string"
+            length="80"
+          />
+
+          <!-- 简单字符串属性: 邮编 -->
+          <property
+            name="postCode"
+            column="postCode"
+            type="string"
+            length="20"
+          />
+
+          <!-- 简单日期型属性: 成立日期 -->
+          <property
+            name="birthDate"
+            column="birthDate"
+            	type="timestamp"
+            	length="10"
+          />
+
+          <!-- 简单整型属性: 志愿者人数 -->
+          <property
+            name="personNum"
+            column="personNum"
+            type="int"
+
+          />
+
+          <!-- 简单字符串属性: 联系人电话 -->
+          <property
+            name="telephone"
+            column="telephone"
+            type="string"
+            length="20"
+          />
+
+          <!-- 简单字符串属性: 负责人姓名 -->
+          <property
+            name="chargeMan"
+            column="chargeMan"
+            type="string"
+            length="20"
+          />
+
+          <!-- 简单字符串属性: 负责人身份证 -->
+          <property
+            name="cardNumber"
+            column="cardNumber"
+            type="string"
+            length="30"
+          />
+
+
+		 
+		
+	</class>
+	
+</hibernate-mapping>
+ 

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4F4F4"
+        android:padding="10dip" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/tv_teamUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ssss"
+                android:maxEms="18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ssss"
+                android:maxEms="18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_teamName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ssss"
+                android:maxEms="18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_shoolName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ssss"
+                android:maxEms="18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_contactGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ssss"
+                android:maxEms="18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_mainUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ssss"
+                android:maxEms="18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ssss"
+                android:maxEms="18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_postCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ssss"
+                android:maxEms="18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_telephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ssss"
+                android:maxEms="18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_chargeMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ssss"
+                android:maxEms="18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+
